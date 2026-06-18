@@ -1,0 +1,57 @@
+================================================================================
+LIVENESS DETECTION BENCHMARK REPORT
+================================================================================
+
+
+Method: Divide & Conquer (64px)
+--------------------------------------------------------------------------------
+  Total Images:     1196
+  Total Grids:      18386
+  Total Time:       1.6024s
+  Avg Time/Image:   0.0013s
+  Min Time:         0.0011s
+  Max Time:         0.0114s
+  Accuracy:         0.5017 (50.17%)
+  Precision:        0.4961
+  Recall:           0.9779
+  F1 Score:         0.6583
+  True Positives:   574
+  True Negatives:   26
+  False Positives:  583
+  False Negatives:  13
+
+Method: Divide & Conquer (32px)
+--------------------------------------------------------------------------------
+  Total Images:     1196
+  Total Grids:      69853
+  Total Time:       4.1381s
+  Avg Time/Image:   0.0035s
+  Min Time:         0.0030s
+  Max Time:         0.0119s
+  Accuracy:         0.4925 (49.25%)
+  Precision:        0.4914
+  Recall:           0.9761
+  F1 Score:         0.6537
+  True Positives:   573
+  True Negatives:   16
+  False Positives:  593
+  False Negatives:  14
+
+Method: Naive Full Process
+--------------------------------------------------------------------------------
+  Total Images:     1196
+  Total Grids:      1196
+  Total Time:       0.5187s
+  Avg Time/Image:   0.0004s
+  Min Time:         0.0003s
+  Max Time:         0.0014s
+  Accuracy:         0.5059 (50.59%)
+  Precision:        0.4983
+  Recall:           0.9710
+  F1 Score:         0.6586
+  True Positives:   570
+  True Negatives:   35
+  False Positives:  574
+  False Negatives:  17
+
+================================================================================
