@@ -112,3 +112,6 @@ venv.bak/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+/results/comparison/EXPLANATION.md
+/results/comparison/VIDEO_SCRIPT.md
