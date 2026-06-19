@@ -598,7 +598,7 @@ Consider a dataset $D$ with $N = 100,000$ images that must be processed for live
     \item Total time: $(100,000 \times 1.74\text{ms}) + (60,000 \times 2.61\text{ms}) = 174 + 156.6 = 330.6\text{ seconds}$
 \end{itemize}
 
-Wait, this appears slower. Let us reconsider: the D\&C's value is not in replacing the CNN but in \textbf{early rejection of irrelevant data}. In a streaming scenario where we need to quickly discard obvious non-faces or background images, D\&C provides:
+This calculation suggests a slower total time; however, the value of D\&C lies not in replacing the CNN but in \textbf{early rejection of irrelevant data}. In a streaming scenario where we need to quickly discard obvious non-faces or background images, D\&C provides:
 
 \begin{itemize}
     \item \textbf{Fast Rejection}: In 1.74ms, we can identify and discard images that are clearly uniform or have no facial texture
